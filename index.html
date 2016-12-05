@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Panorama - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+       <a-assets>
+                 <video id="video" src="video/Yoho.mp4" autoplay loop></video>
+      </a-assets>
+      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+    </a-scene>
+  </body>
+</html>
